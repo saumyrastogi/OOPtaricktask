@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  font-family: sans-serif ;
+
+}
+.side-side{
+  display: inline-block;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 150px;
+}
+.formdiv{
+
+}
+.headdiv{
+padding-top: 50px;
+}
+tr{
+  padding: 50px 0 50px 0;
+}
+.btn{
+  background-color: gold;
+  height: 35px;
+  width: 180px;
+  color: white;
+}
+
+.colorandpad{
+  color: gold;
+  padding-top: 50px;
+}
+.colorandpad1{
+  padding-top: 30px;
+}
+input{
+  border: none;
+ border-bottom: 2px solid grey;
+ width: 400px;
+
+}
