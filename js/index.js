@@ -5,7 +5,9 @@ function myfunction(){
   var lastnameuser = document.querySelector(".second").value;
   var emailuser = document.querySelector(".emailc").value;
   var parent = document.querySelector(".sp");
-  
+  document.querySelector(".btn").onclick = function() {  
+      this.disabled = true;
+  }
   if(document.getElementById("password").value==document.getElementById("confirmpassword").value)
   {
       var newdiv=document.createElement("div");
